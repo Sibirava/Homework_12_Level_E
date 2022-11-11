@@ -28,11 +28,11 @@ def mult_elements_after_max_module(vector):
 
     for element in vector:
         mult *= element
-    return mult
+    return round(mult, 2)
 
 
 def main():
-    vector = Vector.input_float_vector_element(NUMBER_VECTOR_ELEMENTS=5)
+    vector = Vector.random_float_vector_elements()
 
     vector1 = find_module_elements(vector)
 

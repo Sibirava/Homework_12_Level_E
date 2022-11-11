@@ -30,10 +30,10 @@ def mult_elements_vector1(vector1):
 
     for element in vector1:
         mult *= element
-    return mult
+    return round(mult, 2)
 
 def main():
-    vector = Vector.random_vector_elements()
+    vector = Vector.random_float_vector_elements()
     max_index = get_max_value_index(vector)
     min_index = get_min_value_index(vector)
 

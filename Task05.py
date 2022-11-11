@@ -20,10 +20,10 @@ def sum_elements_between_first_second(vector1):
 
     for element in vector1:
         sum += element
-    return sum
+    return round(sum, 2)
 
 def main():
-    vector = Vector.input_float_vector_element(NUMBER_VECTOR_ELEMENTS=5)
+    vector = Vector.random_float_vector_elements()
 
     first = find_first_positive_element_vector(vector)
 
