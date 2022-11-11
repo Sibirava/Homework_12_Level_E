@@ -1,7 +1,7 @@
 import random
-NUMBER = 20
-RANDOM_VALUE_DOWN = 0
-RANDOM_VALUE_UP = 5
+NUMBER = 10
+RANDOM_VALUE_DOWN = -10
+RANDOM_VALUE_UP = 10
 
 NUMBER_VECTOR_ELEMENTS = 10
 def random_vector_elements():
